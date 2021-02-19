@@ -29,6 +29,29 @@ namespace Shop
             
         }
 
+        public static void WannaBuy(Customer customer)
+        {
+            Console.WriteLine("Wanna buy? y/n");
+            if (Console.ReadLine()[0] == 'y')
+            {
+                Console.WriteLine("Do you want to pack it?(+2$) y/n");
+                if (Console.ReadLine()[0] == 'y')
+                {
+                    customer.MyCart.TotalPrice += 2;
+                    Report.GiftsSold++;
+                }
+
+                if (customer is PremiumCustomer)
+                {
+                    customer.MyCart.TotalPrice = customer.MyCart.TotalPrice - customer.MyCart.TotalPrice * 0.1;
+
+                }
+                Shop.Buy(customer);
+                Console.WriteLine("You paid: " + customer.MyCart.TotalPrice + "$");
+
+                Menu.DisplayMenu(customer);
+            }
+        }
 
         public static void Buy(Customer customer) 
         {

@@ -24,7 +24,8 @@ namespace Shop
             }
 
             Console.WriteLine("Total price is: " + TotalPrice);
-            
+
+
         }
 
         public void addProduct(Product product,int quantity)

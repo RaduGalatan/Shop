@@ -14,21 +14,30 @@ namespace Shop
         {
             
             Console.WriteLine("1.Show Products\n2.Show Cart\n3.Leave\n4.Report");
-            int choice = Convert.ToInt32(Console.ReadLine());
+            int choice = 0;
             bool option = true;
             while (option)
             {
-                if(choice<1 || choice > 4)
+                try{
+                    choice = Convert.ToInt32(Console.ReadLine());
+                    if (choice < 1 || choice > 4)
+                    {
+                        Console.WriteLine("Optiune invalida, tastati din nou: ");
+
+                    }
+                    else
+                    {
+                        option = false;
+                    }
+                }
+                catch (Exception e)
                 {
                     Console.WriteLine("Optiune invalida, tastati din nou: ");
-
                 }
-                else
-                {
-                    option = false;
-                }
+                
               
-                choice = Convert.ToInt32(Console.ReadLine());
+              
+                
             }
             switch (choice)
             {
@@ -40,27 +49,15 @@ namespace Shop
                 case 2:
                     {
                         customer.MyCart.showCart();
-
-                        Console.WriteLine("Wanna buy? y/n");
-                        if (Console.ReadLine()[0] == 'y')
+                        if (customer.MyCart.ProductList.Count != 0)
                         {
-                            Console.WriteLine("Do you want to pack it?(+2$) y/n");
-                            if (Console.ReadLine()[0] == 'y')
-                            {
-                                customer.MyCart.TotalPrice += 2;
-                                Report.GiftsSold++;
-                            }
-
-                            if (customer is PremiumCustomer)
-                            {
-                                customer.MyCart.TotalPrice = customer.MyCart.TotalPrice - customer.MyCart.TotalPrice * 0.1;
-
-                            }
-                            Shop.Buy(customer);
-                            Console.WriteLine("You paid: " + customer.MyCart.TotalPrice + "$");
-
+                            Shop.WannaBuy(customer);
+                        }
+                        else
+                        {
                             DisplayMenu(customer);
                         }
+                      
                         break;
                     }//show cart
                 case 3: break;
