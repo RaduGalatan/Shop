@@ -6,10 +6,6 @@ namespace Shop
 {
     public static class Menu
     {
-
-        
-
-
         public static void DisplayMenu(Customer customer)
         {
             
@@ -34,9 +30,6 @@ namespace Shop
                 {
                     Console.WriteLine("Optiune invalida, tastati din nou: ");
                 }
-                
-              
-              
                 
             }
             switch (choice)

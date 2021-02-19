@@ -4,6 +4,7 @@ namespace Shop
 {
     class Program
     {
+     
         static void Main(string[] args)
         {
             //shop.ShowProducts();
@@ -16,14 +17,25 @@ namespace Shop
 
                 Console.WriteLine("Go shopping? y/n");
                 char choice = Console.ReadLine()[0];
+                bool opt = true;
+                while (opt)
+                    if (choice == 'n')
+                    {
+                        opt = false;
+                        break;
+                    }
 
-                if (choice == 'n') break;
 
-                if (choice == 'y')
-                {
-                    Menu.DisplayMenu(customer);
-                }
-                
+                    else if (choice == 'y')
+                    {
+                        opt = false;
+                        Menu.DisplayMenu(customer);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Optiune invalida!!!!");
+                         choice = Console.ReadLine()[0];
+                    }
             }
         }
     }
