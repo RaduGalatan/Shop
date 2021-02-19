@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Shop
+﻿namespace Shop
 {
     public enum ProductsType
-    { 
+    {
         Books,
         Flowers,
         Chocolate
@@ -13,6 +9,8 @@ namespace Shop
 
     public class Product
     {
+        public double Price { get; set; }
+        public ProductsType Name { get; set; }
         public Product(ProductsType name)
         {
             switch (name)
@@ -42,17 +40,5 @@ namespace Shop
                     }
             }
         }
-
-        public double Price { get; set; }
-
-
-        private ProductsType name;
-
-        public ProductsType Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-
     }
 }
