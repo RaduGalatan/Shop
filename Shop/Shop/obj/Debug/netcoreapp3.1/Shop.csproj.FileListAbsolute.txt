@@ -1,0 +1,13 @@
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.exe
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
+C:\Users\radus\source\repos\PeoplePower\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
