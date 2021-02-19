@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\radus\\source\\repos\\PeoplePower\\Shop\\Shop\\Shop.csproj": {}
+    "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\radus\\source\\repos\\PeoplePower\\Shop\\Shop\\Shop.csproj": {
+    "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\radus\\source\\repos\\PeoplePower\\Shop\\Shop\\Shop.csproj",
+        "projectUniqueName": "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Users\\radus\\source\\repos\\PeoplePower\\Shop\\Shop\\Shop.csproj",
-        "packagesPath": "C:\\Users\\radus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\radus\\source\\repos\\PeoplePower\\Shop\\Shop\\obj\\",
+        "projectPath": "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj",
+        "packagesPath": "C:\\Users\\dinug\\.nuget\\packages\\",
+        "outputPath": "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\radus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dinug\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

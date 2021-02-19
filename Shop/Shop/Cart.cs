@@ -10,11 +10,17 @@ namespace Shop
         public void showCart()
         {
 
-
-
-            foreach(var product in ProductList)
+            if (ProductList.Count == 0)
             {
-                Console.WriteLine(product.Key.Name + " " + product.Value + " " + product.Key.Price);
+                Console.WriteLine("Your cart is empty!");
+            }
+
+            else
+            {
+                foreach (var product in ProductList)
+                {
+                    Console.WriteLine(product.Key.Name + " " + product.Value + " " + product.Key.Price);
+                }
             }
 
             Console.WriteLine("Total price is: " + TotalPrice);

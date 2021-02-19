@@ -15,6 +15,21 @@ namespace Shop
             
             Console.WriteLine("1.Show Products\n2.Show Cart\n3.Leave\n4.Report");
             int choice = Convert.ToInt32(Console.ReadLine());
+            bool option = true;
+            while (option)
+            {
+                if(choice<1 || choice > 4)
+                {
+                    Console.WriteLine("Optiune invalida, tastati din nou: ");
+
+                }
+                else
+                {
+                    option = false;
+                }
+              
+                choice = Convert.ToInt32(Console.ReadLine());
+            }
             switch (choice)
             {
                 case 1:
