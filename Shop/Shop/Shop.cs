@@ -15,18 +15,10 @@ namespace Shop
         {
            
             Products = new Dictionary<Product, int>() {
-                {
-                    books,10
-                },
-                {
-                    flowers,15
-                },
-                {
-                    chocolate,50
-                }
-            };
-           
-            
+                { books, 10 },
+                { flowers, 15 },
+                { chocolate, 50 }
+            };      
         }
 
         public static void WannaBuy(Customer customer)
@@ -46,7 +38,8 @@ namespace Shop
                     customer.MyCart.TotalPrice = customer.MyCart.TotalPrice - customer.MyCart.TotalPrice * 0.1;
 
                 }
-                Shop.Buy(customer);
+                
+                Buy(customer);
                 Console.WriteLine("You paid: " + customer.MyCart.TotalPrice + "$");
 
                 Menu.DisplayMenu(customer);
@@ -55,10 +48,8 @@ namespace Shop
 
         public static void Buy(Customer customer) 
         {
-
             foreach (var product in customer.MyCart.ProductList)
-            {
-                
+            {                
                 if (product.Key.Name.Equals(ProductsType.Books))
                 {
                     Products[books] -= product.Value;
@@ -84,12 +75,9 @@ namespace Shop
             {
                 ShowProducts();
 
-
                 Console.WriteLine("What do you want to buy?");
-
                 int choice = Convert.ToInt32(Console.ReadLine());
  
-
                 var x = Products.ElementAt(choice-1).Key;
 
                 Console.WriteLine("How many do you wish to buy?");
@@ -113,11 +101,9 @@ namespace Shop
             int i = 1;
             foreach(var product in Products)
             {
-                Console.WriteLine(i+"."+product.Key.Name + " " + product.Key.Price+"$"+" Quantity: "+ product.Value);
+                Console.WriteLine(i+". " + product.Key.Name + " " + product.Key.Price + "$" + " - In stock: "+ product.Value);
                 i++;
             }
-        }
-
-       
+        }     
     }
 }

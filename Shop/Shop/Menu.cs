@@ -18,7 +18,7 @@ namespace Shop
                     choice = Convert.ToInt32(Console.ReadLine());
                     if (choice < 1 || choice > 4)
                     {
-                        Console.WriteLine("Optiune invalida, tastati din nou: ");
+                        Console.WriteLine("Invalid option, try again");
 
                     }
                     else
@@ -28,7 +28,7 @@ namespace Shop
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Optiune invalida, tastati din nou: ");
+                    Console.WriteLine("Invalid option, try again");
                 }
                 
             }
@@ -52,7 +52,7 @@ namespace Shop
                         }
                       
                         break;
-                    }//show cart
+                    }
                 case 3: break;
 
                 case 4:

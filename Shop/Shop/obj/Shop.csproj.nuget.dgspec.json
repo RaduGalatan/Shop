@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj": {}
+    "D:\\PeoplePower\\Shop\\Shop\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj": {
+    "D:\\PeoplePower\\Shop\\Shop\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj",
+        "projectUniqueName": "D:\\PeoplePower\\Shop\\Shop\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\Shop.csproj",
-        "packagesPath": "C:\\Users\\dinug\\.nuget\\packages\\",
-        "outputPath": "D:\\People Power\\FSDTeamWork\\Shop\\Shop\\Shop\\obj\\",
+        "projectPath": "D:\\PeoplePower\\Shop\\Shop\\Shop\\Shop.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\PeoplePower\\Shop\\Shop\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dinug\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

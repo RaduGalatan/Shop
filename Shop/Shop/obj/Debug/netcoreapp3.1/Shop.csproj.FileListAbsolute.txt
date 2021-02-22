@@ -24,3 +24,14 @@ D:\People Power\FSDTeamWork\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.C
 D:\People Power\FSDTeamWork\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 D:\People Power\FSDTeamWork\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 D:\People Power\FSDTeamWork\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+D:\PeoplePower\Shop\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.exe
+D:\PeoplePower\Shop\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+D:\PeoplePower\Shop\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
+D:\PeoplePower\Shop\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
+D:\PeoplePower\Shop\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+D:\PeoplePower\Shop\Shop\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+D:\PeoplePower\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+D:\PeoplePower\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+D:\PeoplePower\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+D:\PeoplePower\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+D:\PeoplePower\Shop\Shop\Shop\obj\Debug\netcoreapp3.1\Shop.pdb

@@ -6,20 +6,30 @@ namespace Shop
 {
     public class Cart
     {
+        private Dictionary<Product, int> productList = new Dictionary<Product, int>();
+        private double totalPrice = 0;
 
+        public Dictionary<Product, int> ProductList
+        {
+            get { return productList; }
+            set { productList = value; }
+        }
+        public double TotalPrice
+        {
+            get { return totalPrice; }
+            set { totalPrice = value; }
+        }
         public void showCart()
         {
-
             if (ProductList.Count == 0)
             {
                 Console.WriteLine("Your cart is empty!");
             }
-
             else
             {
                 foreach (var product in ProductList)
                 {
-                    Console.WriteLine(product.Key.Name + " " + product.Value + " " + product.Key.Price);
+                    Console.WriteLine(product.Key.Name + " : " + product.Value + " - " + product.Key.Price + "$/piece");
                 }
             }
 
@@ -41,22 +51,5 @@ namespace Shop
             }
 
         }
-
-        private Dictionary<Product,int> productList = new Dictionary<Product,int>();
-
-        public Dictionary<Product,int> ProductList
-        {
-            get { return productList; }
-            set { productList = value; }
-        }
-
-        private double totalPrice = 0;
-
-        public double TotalPrice
-        {
-            get { return totalPrice; }
-            set { totalPrice = value; }
-        }
-
     }
 }
